@@ -2,7 +2,12 @@
         background-color: rgb(255, 246, 246);
     }
     .form-control{
-        width: 300px;
+        width: 100%;
+        
+    }
+    .formulario-control{
+        width: 100%;
+        height: 10rem;
     }
     /* Carrusel */
     .carousel-inner{
