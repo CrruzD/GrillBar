@@ -8,8 +8,20 @@ $color-fondo-footer: #c4c4c4;
 body{
     background-color: $color-fondo;
 }
+
+.color-sucursal{
+    color: red;
+}
+.formulario{
+    margin-bottom: 80px;
+    &-contacto{
+        width: 100%;
+        height: 9rem;
+    }
+}
 .form-control{
     width: 300px;
+    
 }
 /* Carrusel */
 .carousel-inner{
