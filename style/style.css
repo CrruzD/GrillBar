@@ -1,17 +1,34 @@
-/* Variables */
-body {
-  background-color: #fff6f6;
+/* ===================== Variables ===================== */
+/* ===================== Mapas, extend y mixins ===================== */
+.fondo--producto {
+  background-color: red;
 }
 
-.color-sucursal {
-  color: red;
+.fondo--contacto {
+  background-color: blue;
+}
+
+.fondo--quienessomos {
+  background-color: yellow;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* ===================== Borrar cuando apruebes el desafio ===================== */
+body {
+  background-color: #fff6f6;
 }
 
 .formulario {
   margin-bottom: 80px;
 }
 
-.formulario-contacto {
+.formulario__contacto {
   width: 100%;
   height: 9rem;
 }
@@ -20,27 +37,19 @@ body {
   width: 300px;
 }
 
-/* Carrusel */
+/* ===================== Carrusel ===================== */
 .carousel-inner {
   width: 100%;
 }
 
-/* End Carrusel */
-/* Footer */
-.footer-light {
+/* ===================== Footer ===================== */
+.footer-light, h3 {
   padding: 30px 0;
   color: #000000;
   background-color: #c4c4c4;
 }
 
-.footer-light h3 {
-  margin-top: 0;
-  margin-bottom: 12px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.footer-light ul {
+.footer-light ul, h3 ul {
   padding: 0;
   list-style: none;
   line-height: 1.6;
@@ -48,17 +57,17 @@ body {
   margin-bottom: 0;
 }
 
-.footer-light ul a {
+.footer-light ul a, h3 ul a {
   color: inherit;
   text-decoration: none;
   opacity: 0.8;
 }
 
-.footer-light ul a :hover {
+.footer-light ul a :hover, h3 ul a :hover {
   opacity: 0.8;
 }
 
-.footer-light .copyright {
+.footer-light .copyright, h3 .copyright {
   text-align: center;
   padding-top: 24px;
   opacity: 0.3;
@@ -66,20 +75,20 @@ body {
   margin-bottom: 0;
 }
 
-.footer-light .item.text {
+.footer-light .item.text, h3 .item.text {
   margin-bottom: 36px;
 }
 
-.footer-light .item.text p {
-  opacity: 0.6;
+.footer-light .item.text__p, h3 .item.text__p {
+  opacity: 0.9;
   margin-bottom: 0;
 }
 
-.footer-light .item.text .social {
+.footer-light .item.text__social, h3 .item.text__social {
   text-align: center;
 }
 
-.footer-light .item.text .social > a {
+.footer-light .item.text__social > a, h3 .item.text__social > a {
   font-size: 20px;
   width: 36px;
   height: 36px;
@@ -91,34 +100,54 @@ body {
   color: #000000;
 }
 
-.footer-light .item.text .social > a :hover {
+.footer-light .item.text__social > a :hover, h3 .item.text__social > a :hover {
   opacity: 1.9;
 }
 
-.Logo-footer {
-  width: 30px;
+.caja__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  word-spacing: 10px;
 }
 
-/* MEDIAS QUERIES */
+.caja__redes__facebook {
+  margin: 5px;
+}
+
+.caja__redes__twitter {
+  margin: 5px;
+}
+
+.caja__redes__instagram {
+  margin: 5px;
+}
+
+.caja__redes__snapchat {
+  margin: 5px;
+}
+
+/* ===================== MEDIAS QUERIES ===================== */
 @media (max-width: 767px) {
-  .footer-light .item:not(.social) {
+  .footer-light .item:not(.social), h3 .item:not(.social) {
     text-align: center;
     padding-bottom: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .footer-light .item.text {
+  .footer-light .item.text, h3 .item.text {
     margin-bottom: 0;
   }
 }
 
 @media (max-width: 991px) {
-  .footer-light .item.social {
+  .footer-light .item.social, h3 .item.social {
     text-align: center;
     margin-top: 20px;
   }
 }
-
-/* End Footer */
 /*# sourceMappingURL=style.css.map */

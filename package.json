@@ -1,0 +1,22 @@
+{
+  "name": "entregas-tutora",
+  "version": "1.0.0",
+  "description": "Proyecto con Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mago2021/entregas-tutora.git"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "JcDiaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mago2021/entregas-tutora/issues"
+  },
+  "homepage": "https://github.com/Mago2021/entregas-tutora#readme"
+}
