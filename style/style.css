@@ -1,25 +1,4 @@
 /* ===================== Variables ===================== */
-/* ===================== Mapas, extend y mixins ===================== */
-.fondo--producto {
-  background-color: red;
-}
-
-.fondo--contacto {
-  background-color: blue;
-}
-
-.fondo--quienessomos {
-  background-color: yellow;
-}
-
-h3 {
-  margin-top: 10px;
-  margin-bottom: 12px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
- /* ===================== Borrar cuando apruebes el desafio ===================== */
  
 body {
   background-color: #fff6f6;
